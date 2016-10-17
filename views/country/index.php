@@ -10,8 +10,8 @@ use yii\grid\GridView;
 $this->title = 'Countries';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="country-index">
-
+<div class="country-index" ng-controller="CountryController as countryCtrl">
+    {{2 + 23333}}
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 

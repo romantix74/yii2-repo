@@ -22,7 +22,8 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'js/main.js',
-        'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'
+        'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js',
+        'js/app.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
